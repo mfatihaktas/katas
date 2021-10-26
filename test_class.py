@@ -6,7 +6,6 @@ def game():
 	return BowlingGame()
 
 class TestClass:
-
 	def roll_same_value_n_times(self, game, value, n):
 		for _ in range(n):
 			game.roll(value)
